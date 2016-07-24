@@ -26,7 +26,7 @@ class v {
 		return '<script>window.alert("'.$v.'")</script>';
 	}
 	function alertConfirm($v) {
-    return '<script>window.confirm("'.$v.'")</script>';
+		return '<script>window.confirm("'.$v.'")</script>';
 	}
 	function re($v) {
 		echo '<script>window.location = \''.$v.'\'</script>';
@@ -62,17 +62,17 @@ class d {
 	}
 	function niceDate($v) {
 		// date
-    	$v = strtotime($v);
-    	$v = strtoupper(date("d M Y", $v));
-    	return $v;
+    		$v = strtotime($v);
+    		$v = strtoupper(date("d M Y", $v));
+    		return $v;
 	}
 	function h($v) {
 		// regular sanitization
 		// "h" used as function name for conciseness and it's easy to remember as a hook for htmlspecialchars.
-    	$v = trim($v);
-    	$v = stripslashes($v);
-    	$v = htmlspecialchars($v);
-    	return $v;
+		$v = trim($v);
+    		$v = stripslashes($v);
+    		$v = htmlspecialchars($v);
+    		return $v;
 	}
 	function s($db, $v) {
 		// SQL sanitization
@@ -81,11 +81,11 @@ class d {
   	function sqlJobSelect() {
 		// Testing only.
 		// "Jobs" is table name. Testing running single select statements through a routine data function.
-    	$s = "
-    	SELECT
-    	Job_id, Job_name, Job_description
-    	FROM
-    	Jobs";
+    		$s = "
+    		SELECT
+    		Job_id, Job_name, Job_description
+    		FROM
+    		Jobs";
 		return $s;
 	}
 }
