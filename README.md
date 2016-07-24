@@ -5,6 +5,8 @@ _Please note: This is an open source project I'm creating from scratch.
 The idea here is to include all functions needed within a mvd.php and call it in an include at the top of every php file.
 I would love any feedback, thoughts, ideas with the MVD-DM if anything comes to mind. I hope to be able to rely on this mvd.php file for my own websites and projects as well as help others with their projects._
 
+_Note2: Another way to explain what I'm trying to do here is...a barebones Content Management System based on the MVD-DM that has the latest securities implemented with as much logic as possible on the mvd.php file and any presentation files to hold all of the presentation data/logic.
+
 ## Precursor
 - Before the actual MVD classes in the mvd.php file all the database connection information is included.
 ```
