@@ -22,4 +22,4 @@ $pdo = new PDO("mysql:host=localhost;dbname=[DB NAME]", '[USER]', '[PASS]');
 - The view is assumed to be whatever resource is being used to view the content such as a screen or watch or printer.
 
 ## Data
-- Provides for SQL, displays data, works with the data (transformations.)
+- Works with data from the database and provides data transformations (bin to hex, etc.)
