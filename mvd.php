@@ -5,7 +5,7 @@ $db = mysqli_connect('localhost', '[USER]', '[PASS]]', '[DB NAME]');
 $pdo = new PDO("mysql:host=localhost;dbname=[DB NAME]]", '[USER]', '[PASS]');
 /* - STRING CONTAINER */
 class m {
-  // Provides all the containers and the re-usable functions.
+	// Provides all the containers and the re-usable functions.
 	function logout() {
 		session_destroy();
 		echo v::re('index.php');
