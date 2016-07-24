@@ -8,4 +8,6 @@ require_once 'metaHeader.php';
 <div class="welcome">
   Hello and Welcome!
 </div>
+<?
 require_once 'metaFooter.php';
+?>
